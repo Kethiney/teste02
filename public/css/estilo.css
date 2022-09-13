@@ -1,3 +1,52 @@
 body {
-  background: purple;
+  background: grey;
+  margin: 0;
+  max-width: 100vw;
+}
+header{
+  padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width:940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;    
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+section{
+  border: 2px solid ;
+  width: 1300px;
+  margin: 0 350px;
+  height: 900px;
+  background-color: #4F4F4F;
+  border-radius: 6px;
+}
+#dd{
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  background-color: #A9A9A9;
+  margin-top: 12px;
+  font-size: 12pt;
+  font-family: sans-serif;
+
+}
+p.foo{
+  margin: 10px 850px;
 }
