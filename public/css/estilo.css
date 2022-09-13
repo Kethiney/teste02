@@ -50,3 +50,6 @@ footer{
 p.foo{
   margin: 10px 850px;
 }
+img#cur{
+  width: 50px;
+}
