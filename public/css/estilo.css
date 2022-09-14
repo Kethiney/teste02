@@ -26,6 +26,12 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    
+}
+nav a:hover{
+  color: #1C1C1C;
+  transition: 0.5s;
+  opacity: 0.7;
 }
 section{
   border: 2px solid ;
@@ -33,10 +39,11 @@ section{
   margin: 0 350px;
   height: 900px;
   background-color: #4F4F4F;
-  border-radius: 6px;
+  border-radius: 16px;
 }
 #dd{
   text-align: center;
+  font-size: 24pt;
 }
 
 footer{
@@ -51,5 +58,18 @@ p.foo{
   margin: 10px 850px;
 }
 img#cur{
-  width: 50px;
+  width: 150px;
+  border-radius: 160px;
+}
+div#prim{
+  width: 10%;
+  min-width: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+div#seg{
+  width: 10%;
+  min-width: 250px;
+  display: inline-block;
+  vertical-align: top;
 }
