@@ -1,6 +1,7 @@
 body {
   background: grey;
   margin: 0;
+  font-family: sans-serif;
   max-width: 100vw;
 }
 header{
@@ -44,6 +45,7 @@ section{
 #dd{
   text-align: center;
   font-size: 24pt;
+  margin-top: 44px;
 }
 
 footer{
@@ -58,6 +60,7 @@ p.foo{
   margin: 10px 850px;
 }
 img#cur{
+  margin-top: 11px;
   width: 150px;
   border-radius: 160px;
 }
@@ -66,10 +69,42 @@ div#prim{
   min-width: 250px;
   display: inline-block;
   vertical-align: top;
+  margin-top: 14px;
+  margin-left: 250px;
+  margin-right: 60px;
 }
 div#seg{
-  width: 10%;
+  margin-top: 14px;
+  width: 40%;
   min-width: 250px;
   display: inline-block;
   vertical-align: top;
+}
+hr{
+  background-color: black;
+  width: 73%;
+
+}
+h2#eli{
+  font-size: 28pt;
+  margin-left: 9px;
+}
+h3#sa{
+  margin-left: 9px;
+}
+div#den{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+div#tro{
+  width: 55%;
+  display: inline-block;
+  vertical-align: top;
+}
+#perfil{
+  width: 88%;
+}
+p#eli{
+  color: #A9A9A9;
 }
