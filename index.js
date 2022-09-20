@@ -13,6 +13,15 @@ app.get('/formacao-academica', (req, res) => {
   res.sendFile(path.join(__dirname, '/formacao.html'));
 })
 
+app.get('/projetos', (req, res) => {
+  res.sendFile(path.join(__dirname, '/projetos.html'));
+})
+
+app.get('/exit', (req, res) => {
+  res.sendFile(path.join(__dirname, '/sair.html'));
+})
+
+
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`)
 })
